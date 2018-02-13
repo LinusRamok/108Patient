@@ -38,12 +38,14 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.iid.FirebaseInstanceId;
 import com.google.gson.Gson;
 
 import java.util.HashMap;
@@ -65,6 +67,7 @@ public class SimpleDirectionActivity extends AppCompatActivity implements
     Marker ambulancePositionMarker;
     LocationRequest mLocationRequest;
     GoogleApiClient mGoogleApiClient;
+    DatabaseReference mNotificationDatabase;
 
 
 
@@ -78,12 +81,16 @@ public class SimpleDirectionActivity extends AppCompatActivity implements
     private Ambulance ambulance=null;
     private Patient patient=null;
 
-    DatabaseReference ambRef,ambLocRef,ambStatusRef,PatientsRef;
+    DatabaseReference ambRef,ambLocRef,ambStatusRef,PatientsRef,mUserDatabase;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_simple_direction);
         FirebaseDatabase database = FirebaseDatabase.getInstance();
+        mUserDatabase=FirebaseDatabase.getInstance().getReference().child("patients");
+        mNotificationDatabase=FirebaseDatabase.getInstance().getReference().child("notifications");
+        String device_token= FirebaseInstanceId.getInstance().getToken();
+        mUserDatabase.child(MainActivity.account.getId()).child("device_token").setValue(device_token);
 
         PatientsRef=database.getReference("patients");
         ambRef = database.getReference("ambulance");
@@ -154,6 +161,13 @@ public class SimpleDirectionActivity extends AppCompatActivity implements
     }
 
     public void Emergency(View view) {
+        HashMap<String,String> notificationData=new HashMap<>();
+        notificationData.put("from",MainActivity.account.getDisplayName());
+        mNotificationDatabase.child("101078650104813911105").push().setValue(notificationData).addOnSuccessListener(new OnSuccessListener<Void>() { @Override
+        public void onSuccess(Void aVoid) {
+            Toast.makeText(SimpleDirectionActivity.this, "data successfully sent ", Toast.LENGTH_SHORT).show();
+        }
+        });
         System.out.println("Emergency button clicked");
         try {
             System.out.println("patient :"+new Gson().toJson(patient));
