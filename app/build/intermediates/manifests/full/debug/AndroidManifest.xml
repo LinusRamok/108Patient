@@ -33,6 +33,7 @@
         android:debuggable="true"
         android:label="108Emergency"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.Emergency.Patient.SimpleDirectionActivity"

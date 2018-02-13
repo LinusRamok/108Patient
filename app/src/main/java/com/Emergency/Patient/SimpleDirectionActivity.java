@@ -162,8 +162,9 @@ public class SimpleDirectionActivity extends AppCompatActivity implements
 
     public void Emergency(View view) {
         HashMap<String,String> notificationData=new HashMap<>();
-        notificationData.put("from",MainActivity.account.getDisplayName());
-        mNotificationDatabase.child("101078650104813911105").push().setValue(notificationData).addOnSuccessListener(new OnSuccessListener<Void>() { @Override
+        notificationData.put("from",MainActivity.account.getId());
+        notificationData.put("type","request");
+        mNotificationDatabase.child("101806219341695954976").push().setValue(notificationData).addOnSuccessListener(new OnSuccessListener<Void>() { @Override
         public void onSuccess(Void aVoid) {
             Toast.makeText(SimpleDirectionActivity.this, "data successfully sent ", Toast.LENGTH_SHORT).show();
         }
