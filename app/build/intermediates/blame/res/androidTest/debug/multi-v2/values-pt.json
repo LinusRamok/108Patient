@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\kamlesh\\Documents\\GitHub\\108\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-pt\\values-pt.xml",
+            "outputFile": "C:\\Users\\kamlesh\\Documents\\GitHub\\108Patient\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-pt\\values-pt.xml",
             "map": [
                 {
                     "source": "C:\\Users\\kamlesh\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.0.aar\\9092464d64d45a801ff6870ff7a9ed28\\res\\values-pt\\values-pt.xml",

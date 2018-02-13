@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\kamlesh\\Documents\\GitHub\\108\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-hr\\values-hr.xml",
+            "outputFile": "C:\\Users\\kamlesh\\Documents\\GitHub\\108Patient\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-hr\\values-hr.xml",
             "map": [
                 {
                     "source": "C:\\Users\\kamlesh\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-places-11.6.0.aar\\2c5e124228a877c9a274116542142890\\res\\values-hr\\values.xml",

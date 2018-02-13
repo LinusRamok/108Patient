@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\kamlesh\\Documents\\GitHub\\108\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "C:\\Users\\kamlesh\\Documents\\GitHub\\108Patient\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\kamlesh\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.0.aar\\152e4dff458c9af4768ee13c5e4e4a56\\res\\values-v21\\values-v21.xml",

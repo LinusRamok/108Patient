@@ -2,104 +2,99 @@
 <instant-run
     abi="armeabi-v7a,armeabi"
     api-level="23"
-    build-mode="FULL"
+    build-mode="COLD"
     density="xhdpi"
     format="10"
+    ir-eligibility="COMPATIBLE"
     plugin-version="3.0.1"
-    timestamp="1518443924841"
-    token="-1263887307457757754"
-    verifier="FULL_BUILD_REQUESTED" >
+    timestamp="1518461682285"
+    token="5600052478976016725"
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="3056" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="1731" />
+        duration="131" />
     <task
         name="verifier"
-        duration="0" />
+        duration="17" />
 
     <artifact
-        location="C:\Users\kamlesh\Documents\GitHub\108\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        location="C:\Users\kamlesh\Documents\GitHub\108Patient\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\kamlesh\Documents\GitHub\108\app\build\outputs\apk\debug\app-debug.apk"
+        location="C:\Users\kamlesh\Documents\GitHub\108Patient\app\build\outputs\apk\debug\app-debug.apk"
         type="SPLIT_MAIN" />
-    <artifact
-        location="C:\Users\kamlesh\Documents\GitHub\108\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\kamlesh\Documents\GitHub\108\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\kamlesh\Documents\GitHub\108\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\kamlesh\Documents\GitHub\108\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\kamlesh\Documents\GitHub\108\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\kamlesh\Documents\GitHub\108\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\kamlesh\Documents\GitHub\108\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\kamlesh\Documents\GitHub\108\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\kamlesh\Documents\GitHub\108\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\kamlesh\Documents\GitHub\108\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1518443924841"
+        timestamp="1518455544331"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\kamlesh\Documents\GitHub\108\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="C:\Users\kamlesh\Documents\GitHub\108Patient\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\kamlesh\Documents\GitHub\108\app\build\outputs\apk\debug\app-debug.apk"
+            location="C:\Users\kamlesh\Documents\GitHub\108Patient\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\kamlesh\Documents\GitHub\108Patient\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\kamlesh\Documents\GitHub\108Patient\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\kamlesh\Documents\GitHub\108Patient\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\kamlesh\Documents\GitHub\108Patient\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\kamlesh\Documents\GitHub\108Patient\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\kamlesh\Documents\GitHub\108Patient\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\kamlesh\Documents\GitHub\108Patient\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\kamlesh\Documents\GitHub\108Patient\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\kamlesh\Documents\GitHub\108Patient\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\kamlesh\Documents\GitHub\108Patient\app\build\outputs\apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="METHOD_DELETED"
+        timestamp="1518457829874"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Users\kamlesh\Documents\GitHub\108\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="C:\Users\kamlesh\Documents\GitHub\108Patient\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\kamlesh\Documents\GitHub\108\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="C:\Users\kamlesh\Documents\GitHub\108Patient\app\build\outputs\apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1518461682285"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\kamlesh\Documents\GitHub\108Patient\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\kamlesh\Documents\GitHub\108\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\kamlesh\Documents\GitHub\108\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\kamlesh\Documents\GitHub\108\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\kamlesh\Documents\GitHub\108\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\kamlesh\Documents\GitHub\108\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\kamlesh\Documents\GitHub\108\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\kamlesh\Documents\GitHub\108\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\kamlesh\Documents\GitHub\108\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
+            location="C:\Users\kamlesh\Documents\GitHub\108Patient\app\build\outputs\apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>
